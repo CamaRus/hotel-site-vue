@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Stolzl:wght@400;500;700&display=swap");
+
+@font-face {
+  font-family: "stolzl_bold";
+  src: url(./fonts/stolzl_bold.otf) format("otf");
+}
+
+@font-face {
+  font-family: "stolzl_book";
+  src: url(./fonts/stolzl_book.otf) format("otf");
+}
+
+@font-face {
+  font-family: "stolzl_light";
+  src: url(./fonts/stolzl_light.otf) format("otf");
+}
+
+@font-face {
+  font-family: "stolzl_medium";
+  src: url(./fonts/stolzl_medium.otf) format("otf");
+}
+
+@font-face {
+  font-family: "stolzl_regular";
+  src: url(./fonts/stolzl_regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: "stolzl_thin";
+  src: url(./fonts/stolzl_thin.otf) format("otf");
+}
+
+body {
+  margin: 0;
+  /* line-height: normal; */
+  /* font-family: "stolzl_book"; */
+}
+:root {
+  /* fonts */
+  --h-64b: Stolzl;
+  --p-18book: Stolzl;
+  --h-24m: Stolzl;
+  --p-16book: Stolzl;
+  --p-14book: Stolzl;
+
+  /* font sizes */
+  --p-18r-size: 18px;
+  --h-64b-size: 64px;
+  --p-13r-size: 13px;
+  --h-24m-size: 24px;
+  --p-15r-size: 15px;
+  --p-14book-size: 14px;
+  --p-18book-size: 18px;
+  --h-48b-size: 48px;
+  --p-13r-size: 13px;
+  --p-16book-size: 16px;
+
+  /* Colors */
+  --white: #fff;
+  --accent: #3d324f;
+  --black: #1a1a1a;
+  --white-35: rgba(255, 255, 255, 0.35);
+  --color-gray-100: rgba(255, 255, 255, 0.35);
+  --color-dimgray: #6c6c6c;
+  --color-slategray: #465476;
+
+  /* Gaps */
+  --gap-21xl: 40px;
+  --gap-13xl: 32px;
+  --gap-9xl: 28px;
+  --gap-xs: 12px;
+  --gap-5xs: 8px;
+  --gap-5xl: 24px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+  --padding-xs: 12px;
+  --padding-81xl: 100px;
+  --padding-21xl: 40px;
+  --padding-9xl: 28px;
+  --padding-13xl: 32px;
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-base: 16px;
+  --br-5xs: 8px;
+
+  /* Effects */
+  --blur: blur(12px);
+}
